@@ -7,8 +7,8 @@
 // IDECodeSnippetLanguage: Xcode.SourceCodeLanguage.Objective-C
 // IDECodeSnippetUserSnippet: 1
 // IDECodeSnippetVersion: 2
-+ (instancetype)shared<#name#> {
-    static <#class#> *_shared<#name#> = nil;
++ (instancetype)sharedManager {
+    static <#class#> *_sharedManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _shared<#name#> = <#initializer#>;
