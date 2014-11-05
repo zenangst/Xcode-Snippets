@@ -11,8 +11,8 @@
     static <#class#> *_sharedManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _shared<#name#> = <#initializer#>;
+        _sharedManager = <#initializer#>;
     });
 
-    return _shared<#name#>;
+    return _sharedManager;
 }
