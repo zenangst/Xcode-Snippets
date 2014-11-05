@@ -9,9 +9,9 @@
 // IDECodeSnippetVersion: 0
 - (<#class#> *)class
 {
-    if (_object) return _test;
+    if (_object) return _object;
     
-    _test = [class new];
+    _object = [class new];
 
-    return _test;
+    return _object;
 }
