@@ -11,7 +11,7 @@
 {
     if (<#_object#>) return _object;
     
-    _object = [class new];
+    class *_object = [class new];
 
     return _object;
 }
